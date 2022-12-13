@@ -98,3 +98,229 @@ console.log(fruitsList);
 
 const animalsList =`${animals[0]}, ${animals[1]}, ${animals[3]}, ${animals[3]}, ${animals[4]}`;
 console.log(animalsList);
+
+
+ console.log('######');
+
+// KINTAMUJU PALYGINIMAS
+
+/* Lyginant, jei rezultatas tenkina palyginimo sąlygą, tai į console išvesti žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”. */
+
+/* 1. Tarpusavyje palyginti skaičiaus tipo kintamuosius:
+    a. kuris didesnis
+    b. kuris mažesnis
+    c. ar jie lygūs
+    d. ar jie nelygūs
+    e. kuris didesnis arba lygus
+    f. kuris mažesnis arba lygus */
+
+    /*  const num1 = 12;
+        const num2 =182;
+        const num3 = 7; */
+
+        if (num1 > num2) {
+            console.log('Pomidoras');
+        } else {
+            console.log("Bandykite kitą kartą");
+        }
+
+        if (num1 > num3) {
+            console.log('Pomidoras');
+        } else {
+            console.log("Bandykite kitą kartą");
+        }
+
+        if (num1 < num2) {
+            console.log('Pomidoras');
+        } else {
+            console.log("Bandykite kitą kartą");
+        } 
+
+        if (num1 < num3) {
+            console.log('Pomidoras');
+        } else {
+            console.log("Bandykite kitą kartą");
+        }
+        if (num1 === num2 && num1 ===num3) {
+            console.log('Pomidoras');
+        } else {
+            console.log("Bandykite kitą kartą");
+        }
+
+        if (num1 !== num2 && num1 !==num3) {
+            console.log('Pomidoras');
+        } else {
+            console.log("Bandykite kitą kartą");
+        }
+
+        if (num1 >= num2) {
+            console.log('Pomidoras');
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (num1 >= num3) {
+            console.log('Pomidoras');
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (num1 <= num2) {
+            console.log('Pomidoras');
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (num1 <= num3) {
+            console.log('Pomidoras');
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        console.log('-------');
+
+/* 2. Išvesti teksto tipo kintamųjų ilgius */
+
+    /*  const firstName = "Marlon";
+        const lastName = "Brando";
+        const profession = "Actor"; */
+
+        const firstNameLenght = firstName.length;
+        const lastNameLenght = lastName.length;
+        const professionLenght = profession.length;
+
+        console.log(firstNameLenght);
+        console.log(lastNameLenght);
+        console.log(professionLenght);
+
+/* 3. Tarpusavyje palyginti teksto tipo kintamųjų ilgius:
+    a. kuris didesnis
+    b. kuris mažesnis
+    c. ar jie lygūs
+    d. ar jie nelygūs
+    e. kuris didesnis arba lygus
+    f. kuris mažesnis arba lygus */
+
+        if (firstNameLenght > lastNameLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght < lastNameLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+
+        if (firstNameLenght === lastNameLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght !== lastNameLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght >= lastNameLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght <= lastNameLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght > professionLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght < professionLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght === professionLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght !== professionLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght >= professionLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+        if (firstNameLenght <= professionLenght) {
+            console.log(`Pomidoras`);
+        } else {
+            console.log('Bandykite kitą kartą');
+        }
+
+/* 4. Išvesti sąrašo tipo kintamųjų ilgius */
+
+   /*   const colors = ['red', 'blue', 'green', 'pink', 'white'];
+        const fruits = ['apple', 'kiwi', 'pear', 'melon', 'bannana'];
+        const animals = ['wolf', 'lion', 'tiger', 'puma', 'bear']; */
+
+        const colorsRedLength = colors[0].length;
+        const colorsBlueLength = colors[1].length;
+        const colorsGreenLength = colors[2].length;
+        const colorsPinkLength = colors[3].length;
+        const colorsWhiteLength = colors[4].length;
+
+
+/* 5. Tarpusavyje palyginti sąrašo tipo kintamųjų ilgius:
+    a. kuris didesnis
+    b. kuris mažesnis
+    c. ar jie lygūs
+    d. ar jie nelygūs
+    e. kuris didesnis arba lygus
+    f. kuris mažesnis arba lygus */
+
+    if (colorsRedLength > colorsBlueLength) {
+        console.log('Pomidoras')
+    } else {
+        console.log('Bandykite kitą kartą');
+    }
+
+    if (colorsRedLength < colorsBlueLength) {
+        console.log('Pomidoras')
+    } else {
+        console.log('Bandykite kitą kartą');
+    }
+
+    if (colors[2].length > colors[4].length) {
+        console.log('Pomidoras');
+    } else {
+        console.log('Bandykite kitą kartą');
+    }
+    if (colors[2].length === colors[4].length) {
+        console.log('Pomidoras');
+    } else {
+        console.log('Bandykite kitą kartą');
+    }
+
+    if (colors[3].length !== colors[4].length) {
+        console.log('Pomidoras');
+    } else {
+        console.log('Bandykite kitą kartą');
+    }
+
