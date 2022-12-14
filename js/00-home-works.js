@@ -381,19 +381,19 @@ console.log(animalsList);
                     1. rezultatas: 11
                 iv. console.log( skaitmenuKiekisSkaiciuje( true ) );
                     1. rezultatas: “Pateikta netinkamo tipo reikšmė.”
-                v.console.log( skaitmenuKiekisSkaiciuje( “asd” ) );
+                v. console.log( skaitmenuKiekisSkaiciuje( “asd” ) );
                     1. rezultatas: “Pateikta netinkamo tipo reikšmė.”
-                vi.console.log( skaitmenuKiekisSkaiciuje( NaN ) );
+                vi. console.log( skaitmenuKiekisSkaiciuje( NaN ) );
                     1. rezultatas: “Pateikta netinkamo tipo reikšmė.” */
 
 
                     function skaitmenuKiekisSkaiciuje (digit) {
                         if (typeof digit !== 'number') {
                             console.log('Pateikta netinkamo tipo reikšmė');
-                        }
+                        } else {
                             const digitLength = digit.toString().length;
                             return digitLength;
-                        
+                        }
                     }
 
-                    console.log(skaitmenuKiekisSkaiciuje('astuoniolikas'));
+                    console.log(skaitmenuKiekisSkaiciuje(true));
