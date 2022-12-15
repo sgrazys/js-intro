@@ -16,6 +16,7 @@
     "labas":"nodemon ./js/01-labas.js",
     "home":"nodemon ./tasks/00-home-works.js",
     "range":"nodemon ./tasks/range-sum.js",
+    "reverse":"nodemon ./tasks/reverse-string.js",
     "shop":"nodemon ./tasks/shop.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
