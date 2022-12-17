@@ -15,6 +15,7 @@
     "numbers": "nodemon ./js/02-numbers.js",
     "labas": "nodemon ./js/01-labas.js",
     "shop": "nodemon ./tasks/shop.js",
+    "mini":"nodemon ./tasks/mini-tasks.js",
     "wars01":"nodemon ./codewars/01-need-one.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
