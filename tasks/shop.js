@@ -44,4 +44,3 @@ shop(prekes, valiuta);
 // 3) Pomidoras kainuoja 1.57 EUR ir turime ju 30 vienetu.
 // ----------------
 // Viso asortimento kaina: 97.10 EUR.
-
