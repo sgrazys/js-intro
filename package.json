@@ -17,6 +17,7 @@
     "shop": "nodemon ./tasks/shop.js",
     "mini":"nodemon ./tasks/mini-tasks.js",
     "wars01":"nodemon ./codewars/01-need-one.js",
+    "wars02":"nodemon ./codewars/02-sum-mixed-array.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
