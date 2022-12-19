@@ -4,3 +4,20 @@ Write a function that takes an array of words and smashes them together into a s
 EXAMPLE:
 ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 */
+
+console.clear();
+
+let wordArr = ["hello", "world", "this", "is", "great"]; 
+
+
+function smash(words) {
+    let sentence = "";
+    for (i = 0; i < words.length; i++) {
+      sentence += words[i] + " ",'';
+    }
+    return sentence;
+  }
+
+
+console.log(smash(wordArr));
+
