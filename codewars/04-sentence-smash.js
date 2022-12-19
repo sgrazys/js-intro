@@ -13,7 +13,7 @@ let wordArr = ["hello", "world", "this", "is", "great"];
 function smash(words) {
     let sentence = "";
     for (i = 0; i < words.length; i++) {
-      sentence += words[i] + " ",'';
+      sentence += words[i] + ' ';
     }
     return sentence;
   }
