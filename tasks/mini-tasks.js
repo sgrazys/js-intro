@@ -8,9 +8,9 @@
 
 console.clear();
 
-const num1 = 7 ;
-const num2 = 43 ;
-const num3 = 117 ;
+const num1 = 7;
+const num2 = 43;
+const num3 = 117;
 
 console.log(num1, num2, num3);
 console.log("---------");
@@ -112,3 +112,41 @@ console.log(`${vegies[0]}, ${vegies[1]}, ${vegies[2]}, ${vegies[3]}, ${vegies[4]
 console.log(`${colors[0]}, ${colors[1]}, ${colors[2]}, ${colors[3]}, ${colors[4]}`);
 console.log("---------");
 
+// KINTAMUJU PALYGINIMAS
+
+/* 
+Lyginant, jei rezultatas tenkina palyginimo sąlygą, tai į console išvesti žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”.
+*/
+
+/* 
+1. Tarpusavyje palyginti skaičiaus tipo kintamuosius:
+    a. kuris didesnis
+    b. kuris mažesnis
+
+    const num1 = 7;
+    const num2 = 43;
+    const num3 = 117 ;
+*/
+
+
+if (num1 > num2) {
+    console.log('Pomidoras');
+} else console.log('Bandyk dar karta');
+
+if (num1 > num2) {
+    console.log(`${num1} yra daugiau uz ${num2}`);
+} else {
+    console.log(`${num1} yra maziau uz ${num2}`);
+}
+
+if (num2 > num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandyk dar karta');
+}
+
+if (num2 > num1) {
+  console.log(`${num2} yra daugiau uz ${num1}`);
+} else {
+  console.log(`${num2} yra maziau uz ${num1}`);
+}
