@@ -9,6 +9,8 @@ function digitCount (number) {
     return "ERROR";
   }
 
+  console.log(number);
+
   // const numberAsString = number.toString();
   const numberAsString = "" + number;
 
@@ -39,3 +41,5 @@ console.log(digitCount(37060123356), '-->', 11);
 console.log(digitCount(3.14), '-->', 3);
 console.log(digitCount(-37060123356), '-->', 11);
 console.log(digitCount(-3.14), '-->', 3);
+
+console.log(digitCount(1000000000000000000000), '-->', 22);
