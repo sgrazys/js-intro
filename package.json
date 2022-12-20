@@ -21,6 +21,7 @@
     "reverse": "nodemon ./tasks/reverse-string.js",
     "shop": "nodemon ./tasks/shop.js",
     "mini": "nodemon ./tasks/mini-tasks.js",
+    "wars08": "nodemon ./codewars/08-cantSleepCountSheep.js",
     "wars07": "nodemon ./codewars/07-quarterOfTheYear.js",
     "wars06": "nodemon ./codewars/06-stringToNumber.js",
     "wars05": "nodemon ./codewars/05-returningString.js",
