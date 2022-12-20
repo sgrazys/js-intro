@@ -10,8 +10,7 @@ console.clear();
 
 const stringToNumber = function (str) {
     
-    
-
+    Number(str);
     return null;
 };
 
