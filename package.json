@@ -14,6 +14,7 @@
     "strings": "nodemon ./js/03-strings.js",
     "numbers": "nodemon ./js/02-numbers.js",
     "labas": "nodemon ./js/01-labas.js",
+    "biggestNumber": "nodemon ./tasks/biggestNumber.js",
     "digitCount": "nodemon ./tasks/digitCount.js",
     "rangeDivide": "nodemon ./tasks/rangeDivide.js",
     "range": "nodemon ./tasks/range-sum.js",
