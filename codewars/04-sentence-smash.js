@@ -32,5 +32,6 @@ function smash (words) {
 //     return words.join(' ')
 // };
 
+// console.log(typeof smash(wordArr)); // dbr type yra string
+
 console.log(smash(wordArr));
-console.log(typeof smash(wordArr)); // dbr type yra string
