@@ -10,15 +10,15 @@ var countSheep = function (num) {
     }
 
     let count = 1;
-    for (let i = 0; i < num; i++) {
+    for (let i = 1; i <= num; i++) {
 
-        console.log(`${count++} sheep...`); 
+        console.log(count++); 
     }
 
 };
 
 
-countSheep(5)
+countSheep(9)
 
 // console.log(countSheep(0), "");
 // console.log(countSheep(1), "1 sheep...");
