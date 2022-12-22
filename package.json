@@ -36,6 +36,7 @@
     "wars03": "nodemon ./codewars/03-function-hello-world.js",
     "wars02": "nodemon ./codewars/02-sum-mixed-array.js",
     "wars01": "nodemon ./codewars/01-need-one.js",
+    "play": "nodemon ./codewars/00-playground.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
