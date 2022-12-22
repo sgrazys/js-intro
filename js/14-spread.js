@@ -43,7 +43,7 @@ const { brand, model } = car
 console.log(brand, model);
 
 
-// SPREAD
+// SPREAD 
 
 const numbers = [1, 2, 3];
 const numbers2 = [...numbers, ...numbers, 666];
@@ -54,6 +54,10 @@ console.log(numbers);
 console.log(numbers2);
 console.log(numbers3);
 console.log(numbers4);
+
+
+
+// SPREAD israsymas/ kopijavimas 
 
 const person = {
     name: 'Maryte',
@@ -85,5 +89,37 @@ console.log(person2.car.price);
 
 
 const {childrenCount, happy, favoriteColor} = person2;
-
 console.log(childrenCount, happy, favoriteColor);
+
+console.clear();
+console.log("Console clear 94 row");
+console.log("-----------");
+
+const a = ['a', 'aa'];
+const b = ['b', 'bb'];
+const c = ['c', 'cc'];
+
+const doubleABC = [...a, 111, ...b, 222, ...c];
+const doubleCBA = [...c, 333, ...b, ...a];
+console.log(doubleABC);
+console.log(doubleCBA);
+
+const oa = { a: 'a', aa: 'aa' };
+const ob = { b: 'b', bb: 'bb' };
+const oc = { c: 'c', cc: 'cc' };
+
+const oABC = { ...oa, ...oc, gg: "gg", ...ob, cc: "nebe CC" };
+console.log(oABC);
+console.log(oABC.cc);
+console.log(oABC.gg);
+
+const user = {
+    name: 'Username',
+    password: 'pasword12'
+
+}
+console.log(user);
+
+const user2 = { ...user, name: 'Jokubas', password: 'slaptazodis23', car: false, age: 12, brother: true };
+console.log(user2);
+console.log(user2.name);
