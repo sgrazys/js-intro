@@ -4,7 +4,7 @@ console.clear();
 LOOP - ciklas
 tevas -> for
 vaikai -> while, for-of, for-in, foreach
-next level -> map, sort, filter, reduce, ...
+next level (HOF higher order function) -> map, sort, filter, reduce, ...
 */
 
 
