@@ -88,6 +88,6 @@ console.log(onlyNamesOfMarried);
 
 // surasti counta
 const onlyMarriedCount = students
-    .filter(s => s.isMaried) 
-    .length; // 
+    .filter(s => s.isMaried)  // atfiltuorju studentus
+    .length; // gaunu masyvo ilgi
 console.log(onlyMarriedCount);
