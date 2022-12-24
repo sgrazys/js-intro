@@ -194,5 +194,3 @@ function basicOp(operation, value1, value2) {
     //         console.log('ERROR');
     //         break;
     // };
-
-
