@@ -83,6 +83,7 @@ console.log(vedePilnameciai);
 // reikalingi vedusiu studentu vardai (pradzioje reikia atsifiltruoti o paskui mapinti - kurti nauja masyva su modifikuotomis reiksmemis )
 const onlyNamesOfMarried = students
     .filter(s => s.isMaried) // atsifiltruojam tik tie kurie vede
+    .filter(s => s.age >= 18)
     .map( s => s.name); // sumapinam tik vardus (sukuriam nauja masyva i kuri itraukiam tik vedusiu vardus)
 console.log(onlyNamesOfMarried);
 
@@ -91,3 +92,14 @@ const onlyMarriedCount = students
     .filter(s => s.isMaried)  // atfiltuorju studentus
     .length; // gaunu masyvo ilgi
 console.log(onlyMarriedCount);
+
+// pasilikti tik vedusiu studentu vardus per loopa
+const onlyFans = [];
+
+for(const student of students) {
+    if (student.isMaried && student.age >= 18) {
+        onlyFans.push(student.name)
+    }
+}
+
+console.log(onlyFans);
