@@ -30,6 +30,7 @@
     "reverse": "nodemon ./tasks/reverse-string.js",
     "shop": "nodemon ./tasks/shop.js",
     "mini": "nodemon ./tasks/mini-tasks.js",
+    "wars12": "nodemon ./codewars/12-abbreviateTwoWordName.js",
     "wars11": "nodemon ./codewars/11-stringRepeat.js",
     "wars10": "nodemon ./codewars/10-ReversedStrings.js",
     "wars09": "nodemon ./codewars/09-RemoveFirstLastCharacter.js",
