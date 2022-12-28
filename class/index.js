@@ -2,21 +2,8 @@ console.clear();
 
 import { Student } from "./Student.js";
 
-const petras = new Student("Petras", 2000);
+const petras = new Student('Petras', 1986);
+const maryte = new Student('Maryte', 1990);
 
-console.log(petras, petras.name);
-
-// petras.addMarks(10, 0, 2, 22);
-// petras.addMark(-22);
-// petras.addMark(8);
-// petras.addMark(3.14);
-// petras.addMark(-3.14);
-// petras.addMark(4);
-// petras.addMark(6);
-// petras.addMark(NaN);
-
-// petras.marks = [10];
-
-// console.log(petras.name, petras.getName());
-// console.log(petras.marks);
-// console.log(petras.marksAverage());
+console.log(petras.name, 'pazymiai', petras.marks);
+console.log(maryte.name, 'pazymiai', maryte.marks);
