@@ -10,8 +10,12 @@ Sam Harris => S.H
 patrick feeney => P.F
 */
 
-function removeExclamationMarks(s) {
-  return s.replaceAll("!", "");
+console.clear();
+
+function abbrevName(name) {
+    let arr = name.split(' ');
+    return arr[0][0].toUpperCase() +'.' + arr[1][0].toUpperCase();
 }
 
-console.log(removeExclamationMarks("Hello World!!"));
+console.log(abbrevName("Sam haris"));
+console.log(abbrevName("Patrick Feenan"));
