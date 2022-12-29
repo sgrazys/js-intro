@@ -3,7 +3,22 @@ console.clear();
 import { Student } from "./Student.js";
 
 const petras = new Student('Petras', 1986);
-const maryte = new Student('Maryte', 1990);
 
-console.log(petras.name, 'pazymiai', petras.marks);
-console.log(maryte.name, 'pazymiai', maryte.marks);
+
+petras.addMark(10);
+petras.addMark(0);
+petras.addMark(2);
+petras.addMark(22);
+petras.addMark(-22);
+petras.addMark(8);
+petras.addMark(4);
+petras.addMark(3.14);
+petras.addMark(-3.14);
+petras.addMark(6);
+
+
+// console.log(petras.name, 'pazymiai', petras.marks);
+
+console.log(petras.name, petras.marksAverage());
+console.log(petras.name, petras.marksAverage2());
+
